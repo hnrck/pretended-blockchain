@@ -2,6 +2,8 @@ module Main
   ( main
   ) where
 
+import           Blockchain (runBlockchain)
+
 -- |'main' function.
 main :: IO ()
-main = undefined
+main = runBlockchain Nothing
