@@ -1,0 +1,56 @@
+name:                pretended-blockchain
+version:             0.0.0.0
+synopsis:            A pretended blockchain
+description:         
+    A pretended blockchain used for playing and incrementally add concepts.
+homepage:            https://github.com/hnrck/pretended-blockchain#readme
+bug-reports:         https://github.com/hnrck/pretended-blockchain/issues
+license:             MIT
+license-file:        LICENSE
+author:              Henrick Deschamps
+maintainer:          Henrick Deschamps <henrick.deschamps@gmail.com>
+copyright:           2018, Henrick Deschamps
+category:            Development
+build-type:          Simple
+extra-source-files:  
+    README.md
+    ChangeLog.md
+cabal-version:       >=1.10
+
+executable PretendedBlockchain
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base
+                     , pretended-blockchain
+  hs-source-dirs:      app
+  default-language:    Haskell2010
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Blockchain
+                     , Blockchain.Block
+                     , Blockchain.Block.Header
+                     , Blockchain.Block.Transaction
+  -- other-modules:
+  build-depends:       base
+                     , bytestring
+                     , cryptohash
+                     , mtl
+  ghc-options:         -Wall
+  default-language:    Haskell2010
+
+-- test-suite unit-tests
+--   type:                exitcode-stdio-1.0
+--   main-is:             Spec.hs
+--   other-modules:       BlockSpec
+--                      , HeaderSpec
+--                      , TransactionSpec
+--   hs-source-dirs:      tst/unit
+--   build-depends:       base
+--                      , bytestring
+--                      , pretended-blockchain
+--                      , hspec
+--                      , hspec-discover
+--                      , QuickCheck
+--   default-language:    Haskell2010
