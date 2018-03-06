@@ -43,9 +43,9 @@ library
 test-suite unit-tests
   type:                exitcode-stdio-1.0
   main-is:             Spec.hs
-  other-modules:       HeaderSpec
+  other-modules:       BlockSpec
+                     , HeaderSpec
                      , TransactionSpec
-                     -- , BlockSpec
   hs-source-dirs:      tst/unit
   build-depends:       base
                      , bytestring
