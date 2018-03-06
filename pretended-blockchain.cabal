@@ -1,5 +1,5 @@
 name:                pretended-blockchain
-version:             0.0.0.0
+version:             0.1.0.0
 synopsis:            A pretended blockchain
 description:         
     A pretended blockchain used for playing and incrementally add concepts.
