@@ -1,6 +1,12 @@
+[![GitHub version](https://img.shields.io/badge/version-0.1.0.0-green.svg)](https://github.com/hnrck/pretended-blockchain/releases/tag/0.1.0.0)
+[![Build Status](https://travis-ci.org/hnrck/pretended-blockchain.svg?branch=master)](https://travis-ci.org/hnrck/pretended-blockchain)
+[![GitHub issues](https://img.shields.io/github/issues/hnrck/pretended-blockchain.svg)](https://github.com/hnrck/pretended-blockchain/issues)
+[![GitHub forks](https://img.shields.io/github/forks/hnrck/pretended-blockchain.svg)](https://github.com/hnrck/pretended-blockchain/network)
+[![GitHub stars](https://img.shields.io/github/stars/hnrck/pretended-blockchain.svg)](https://github.com/hnrck/pretended-blockchain/stargazers)
+[![GitHub license](https://img.shields.io/github/license/hnrck/pretended-blockchain.svg)](https://github.com/hnrck/pretended-blockchain/blob/master/LICENSE)
+
 # pretended-blockchain
 ![PretendedBlockchainLogo](/images/pretended-blockchain.png)
-
 ## Description
 A simple pretended blockchain :link: in Haskell, for playing with blockchain concepts :yum:.
 
